@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="IBatisNet.DataMapper">
+      <HintPath>..\reference\IBatisNet.DataMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="SOAFramework.Library.Session">
+      <HintPath>..\reference\SOAFramework.Library.Session.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Dao\" />
+    <Folder Include="Sql\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="IBatisNet.Common">
+      <HintPath>..\reference\IBatisNet.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="IBatisNet.DataMapper">
+      <HintPath>..\reference\IBatisNet.DataMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="SOAFramework.Library.DAL">
+      <HintPath>..\reference\SOAFramework.Library.DAL.dll</HintPath>
+    </Reference>
+    <Reference Include="SOAFramework.Library.Extension">
+      <HintPath>..\reference\SOAFramework.Library.Extension.dll</HintPath>
+    </Reference>
+    <Reference Include="SOAFramework.Library.Reflection">
+      <HintPath>..\reference\SOAFramework.Library.Reflection.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
