@@ -19,7 +19,7 @@
       <HintPath>..\reference\SOAFramework.Library.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="SOAFramework.Service.SDK.Core">
-      <HintPath>..\..\..\git\XinLuClub\Code\commondll\SOAFramework.Service.SDK.Core.dll</HintPath>
+      <HintPath>..\reference\SOAFramework.Service.SDK.Core.dll</HintPath>
     </Reference>
   </ItemGroup>
 
